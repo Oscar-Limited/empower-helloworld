@@ -30,6 +30,6 @@ jobs:
         with:
             api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
             solution-path: AutomationScript.sln
-            artifact-name: EmpowerHelloWorld
+            artifact-name: empower-helloworld
             version: 1.0.1
             build-number: ${{ github.run_number }}
